@@ -1,0 +1,19 @@
+uuid: 9dd75db6-fd1b-4fb0-b41c-1a32fd296221
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.feedback
+    - field.storage.contact_message.field_location_of_event
+id: contact_message.feedback.field_location_of_event
+field_name: field_location_of_event
+entity_type: contact_message
+bundle: feedback
+label: 'Location of event'
+description: 'Please provide full postcode if known'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

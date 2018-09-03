@@ -1,0 +1,21 @@
+uuid: c44317f5-3654-4e0c-9a98-091c98868cc4
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.feedback
+    - field.storage.contact_message.field_eventtype
+  module:
+    - options
+id: contact_message.feedback.field_eventtype
+field_name: field_eventtype
+entity_type: contact_message
+bundle: feedback
+label: 'Type of event'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

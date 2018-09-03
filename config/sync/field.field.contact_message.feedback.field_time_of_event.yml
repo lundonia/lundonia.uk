@@ -1,0 +1,19 @@
+uuid: 795be9f7-c3cb-44e0-83cb-e6f444ef92d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.feedback
+    - field.storage.contact_message.field_time_of_event
+id: contact_message.feedback.field_time_of_event
+field_name: field_time_of_event
+entity_type: contact_message
+bundle: feedback
+label: 'Time of event'
+description: 'Start time of event if known'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

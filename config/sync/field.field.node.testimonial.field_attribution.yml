@@ -1,0 +1,21 @@
+uuid: 568ef070-3314-4632-880b-ecf6a7439859
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_attribution
+    - node.type.testimonial
+  module:
+    - text
+id: node.testimonial.field_attribution
+field_name: field_attribution
+entity_type: node
+bundle: testimonial
+label: Attribution
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

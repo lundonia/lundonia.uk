@@ -1,0 +1,31 @@
+uuid: 75b15eba-dd89-4d1e-9235-1e7745848a23
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:2452f996-363d-4f66-8466-889c2a67703d'
+  module:
+    - block_content
+    - system
+  theme:
+    - cpq
+id: enquiry
+theme: cpq
+region: content
+weight: -9
+provider: null
+plugin: 'block_content:2452f996-363d-4f66-8466-889c2a67703d'
+settings:
+  id: 'block_content:2452f996-363d-4f66-8466-889c2a67703d'
+  label: Enquiry
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /contact
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,20 @@
+uuid: a00eefa8-9ca5-4b6f-a801-169f2eb84f80
+langcode: en
+status: true
+dependencies:
+  theme:
+    - cpq
+_core:
+  default_config_hash: ffxthelqQF8xcr4GTG4HlaNNsluiHftN0pujmQpW0bQ
+id: cpq_local_actions
+theme: cpq
+region: header
+weight: -8
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,21 @@
+uuid: 14b73b5f-b393-4d66-bdce-6f9ae79308e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.feedback
+    - field.storage.contact_message.field_telephone
+  module:
+    - telephone
+id: contact_message.feedback.field_telephone
+field_name: field_telephone
+entity_type: contact_message
+bundle: feedback
+label: Telephone
+description: 'Please enter your telephone number'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

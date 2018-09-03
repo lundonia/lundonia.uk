@@ -1,0 +1,16 @@
+transport: native
+smtp_host: smtp.gmail.com
+smtp_port: 587
+smtp_encryption: tls
+smtp_username: info@crystalpalacequartet.co.uk
+smtp_password: ''
+sendmail_path: /usr/sbin/sendmail
+sendmail_mode: bs
+spool_directory: ''
+_core:
+  default_config_hash: 0SeYZshzgoabDrbz-junYqeQOQ9BypPv2gaFcnqKy0M
+smtp_credential_provider: swiftmailer
+smtp_credentials:
+  swiftmailer:
+    username: info@crystalpalacequartet.co.uk
+    password: null

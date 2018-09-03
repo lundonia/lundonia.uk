@@ -1,0 +1,25 @@
+uuid: beae5086-11d4-43e9-bd8a-b13b13cd3e5f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:53649abe-dce5-4c76-8a92-2501e98973b5'
+  module:
+    - block_content
+  theme:
+    - cpq
+id: bookustoday
+theme: cpq
+region: navigation_collapsible
+weight: -8
+provider: null
+plugin: 'block_content:53649abe-dce5-4c76-8a92-2501e98973b5'
+settings:
+  id: 'block_content:53649abe-dce5-4c76-8a92-2501e98973b5'
+  label: 'Book us today'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

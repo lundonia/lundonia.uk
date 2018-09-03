@@ -1,0 +1,19 @@
+uuid: ad7bfee1-245f-44a6-9a4f-e07baf9a7f12
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.feedback
+    - field.storage.contact_message.field_comments
+id: contact_message.feedback.field_comments
+field_name: field_comments
+entity_type: contact_message
+bundle: feedback
+label: Comments
+description: 'Any details you can provide at this point'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

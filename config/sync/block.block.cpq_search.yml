@@ -1,0 +1,28 @@
+uuid: accc1ad8-8ef8-4dff-a579-7214bc8b3ba4
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+    - system
+  theme:
+    - cpq
+_core:
+  default_config_hash: F3d5hyAFunLh4PhGviJF019fHn1Z3_zy5gzsQ0tX1K0
+id: cpq_search
+theme: cpq
+region: header
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search this site'
+  provider: search
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: /repertoire
+    negate: false
+    context_mapping: {  }

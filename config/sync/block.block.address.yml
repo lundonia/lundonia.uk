@@ -1,0 +1,31 @@
+uuid: b162aef1-dcd4-462d-95ca-c5ea53415d24
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:3405a175-434d-4bd1-a020-6b9610284a48'
+  module:
+    - block_content
+    - system
+  theme:
+    - cpq
+id: address
+theme: cpq
+region: content
+weight: -5
+provider: null
+plugin: 'block_content:3405a175-434d-4bd1-a020-6b9610284a48'
+settings:
+  id: 'block_content:3405a175-434d-4bd1-a020-6b9610284a48'
+  label: Address
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /contact
+    negate: false
+    context_mapping: {  }

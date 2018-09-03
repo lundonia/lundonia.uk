@@ -1,0 +1,31 @@
+uuid: 1e43c4d2-43f3-4fd6-9f6e-e2eb79b45583
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ea821f5c-4efd-40f9-9fd7-168916c095e6'
+  module:
+    - block_content
+    - system
+  theme:
+    - cpq
+id: cpqontwitter
+theme: cpq
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:ea821f5c-4efd-40f9-9fd7-168916c095e6'
+settings:
+  id: 'block_content:ea821f5c-4efd-40f9-9fd7-168916c095e6'
+  label: 'CPQ on Twitter'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

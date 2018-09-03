@@ -1,0 +1,112 @@
+uuid: f193d6cd-b5cc-48a3-90fa-58c5f65e803b
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_media_links
+  theme:
+    - cpq
+id: socialmedialinks
+theme: cpq
+region: footer
+weight: 0
+provider: null
+plugin: social_media_links_block
+settings:
+  id: social_media_links_block
+  label: 'Social Media Links'
+  provider: social_media_links
+  label_display: '0'
+  platforms:
+    facebook:
+      value: crystalpalacestringquartet
+      description: ''
+      weight: '-30'
+    twitter:
+      value: CPQuartet
+      description: ''
+      weight: '-29'
+    googleplus:
+      value: +CrystalpalacequartetCoUk
+      description: ''
+      weight: '-28'
+    youtube:
+      value: c/CrystalpalacequartetCoUk
+      description: ''
+      weight: '-27'
+    contact:
+      value: contact
+      description: 'Contact us'
+      weight: '-26'
+    email:
+      value: ''
+      description: ''
+      weight: '-25'
+    youtube_channel:
+      value: ''
+      description: ''
+      weight: '-24'
+    behance:
+      value: ''
+      description: ''
+      weight: '-23'
+    github:
+      value: ''
+      description: ''
+      weight: '-22'
+    rss:
+      value: ''
+      description: ''
+      weight: '-21'
+    bitbucket:
+      value: ''
+      description: ''
+      weight: '-20'
+    drupal:
+      value: ''
+      description: ''
+      weight: '-19'
+    vimeo:
+      value: ''
+      description: ''
+      weight: '-18'
+    instagram:
+      value: ''
+      description: ''
+      weight: '-17'
+    slideshare:
+      value: ''
+      description: ''
+      weight: '-16'
+    pinterest:
+      value: ''
+      description: ''
+      weight: '-15'
+    tumblr:
+      value: ''
+      description: ''
+      weight: '-14'
+    vkontakte:
+      value: ''
+      description: ''
+      weight: '-13'
+    linkedin:
+      value: ''
+      description: ''
+      weight: '-12'
+    flickr:
+      value: ''
+      description: ''
+      weight: '-11'
+  appearance:
+    orientation: h
+    show_name: 0
+  link_attributes:
+    target: '<none>'
+    rel: '<none>'
+  iconset:
+    style: 'fontawesome:2x'
+    installed_iconsets:
+      fontawesome:
+        examples: ''
+visibility: {  }

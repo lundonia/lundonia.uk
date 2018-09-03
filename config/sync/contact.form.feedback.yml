@@ -1,0 +1,14 @@
+uuid: 4a2cacd5-eb95-4925-ba84-0b4ed886ec8b
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Booking enquiry'
+recipients:
+  - info@crystalpalacequartet.co.uk
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: /thank-you

@@ -1,0 +1,21 @@
+uuid: 0d89c357-52ca-44f3-94be-ae00ec6ce9f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.feedback
+    - field.storage.contact_message.field_date
+  module:
+    - datetime
+id: contact_message.feedback.field_date
+field_name: field_date
+entity_type: contact_message
+bundle: feedback
+label: 'Date of event'
+description: 'Date of event if known'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

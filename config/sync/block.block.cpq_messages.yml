@@ -1,0 +1,22 @@
+uuid: 49fcef10-f320-4c2b-b4df-7d3c84e7d5e3
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cpq
+_core:
+  default_config_hash: 9RnnTUBcn0WRWXfrGOnId2H0Q31uQUeu_F5TnDxl2yg
+id: cpq_messages
+theme: cpq
+region: header
+weight: -7
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

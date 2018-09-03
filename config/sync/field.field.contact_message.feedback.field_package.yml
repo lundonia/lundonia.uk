@@ -1,0 +1,21 @@
+uuid: eb4a90ce-4f3b-47d2-bd0e-fb256811f0c3
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.feedback
+    - field.storage.contact_message.field_package
+  module:
+    - options
+id: contact_message.feedback.field_package
+field_name: field_package
+entity_type: contact_message
+bundle: feedback
+label: Package
+description: 'Desired package if known'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

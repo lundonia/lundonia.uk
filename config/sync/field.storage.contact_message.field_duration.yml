@@ -1,0 +1,21 @@
+uuid: 20ca94c5-37f8-40dd-b32b-db2582d600f6
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact
+id: contact_message.field_duration
+field_name: field_duration
+entity_type: contact_message
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

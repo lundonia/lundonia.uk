@@ -1,0 +1,48 @@
+uuid: 8177bd39-ceb6-4c3e-853a-116b280380c3
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact
+    - options
+id: contact_message.field_eventtype
+field_name: field_eventtype
+entity_type: contact_message
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: partnership
+      label: 'Civil partnership'
+    -
+      value: concert
+      label: Concert
+    -
+      value: corporate
+      label: 'Corporate function'
+    -
+      value: private
+      label: 'Private party or event'
+    -
+      value: launch
+      label: 'Product launch'
+    -
+      value: public
+      label: 'Public event'
+    -
+      value: session
+      label: 'Recording session'
+    -
+      value: wedding
+      label: Wedding
+    -
+      value: other
+      label: 'Other (please specify in comments below)'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

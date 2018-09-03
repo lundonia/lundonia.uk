@@ -1,0 +1,22 @@
+uuid: 6a69be90-e6ab-4a41-bcf4-c8f6c086d1c6
+langcode: en
+status: true
+dependencies:
+  theme:
+    - cpq
+_core:
+  default_config_hash: qHdtze2DZ2mFfaJadxjZz6epm92_SN9SAFY4yJGl8Fo
+id: cpq_local_tasks
+theme: cpq
+region: header
+weight: -6
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

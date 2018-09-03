@@ -1,0 +1,76 @@
+uuid: 86b86b7e-12e6-45af-a9a9-757cfe5d4f14
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.page.body
+    - field.field.node.page.field_audio
+    - field.field.node.page.field_image
+    - field.field.node.page.field_video
+    - image.style.large
+    - node.type.page
+  module:
+    - audiofield
+    - image
+    - text
+    - user
+    - video_embed_field
+_core:
+  default_config_hash: g1S3_GLaxq4l3I9RIca5Mlz02MxI2KmOquZpHw59akM
+id: node.page.full
+targetEntityType: node
+bundle: page
+mode: full
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_audio:
+    type: audiofield_audioplayer
+    weight: 3
+    region: content
+    label: hidden
+    settings:
+      audio_player: soundmanager_audio_player
+      audio_player_jplayer_theme: audiofield.jplayer.theme_bluemonday
+      audio_player_wavesurfer_combine_files: '1'
+      audio_player_wordpress_animation: '1'
+      audio_player_soundmanager_theme: inlineplayer
+      audio_player_initial_volume: '8'
+      audio_player_lazyload: '1'
+      download_button: '1'
+      audio_player_wordpress_combine_files: 0
+      audio_player_autoplay: 0
+      download_link: 0
+    third_party_settings: {  }
+  field_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: large
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_video:
+    type: video_embed_field_video
+    weight: 2
+    region: content
+    label: hidden
+    settings:
+      responsive: true
+      width: 854
+      height: 480
+      autoplay: false
+    third_party_settings: {  }
+  links:
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

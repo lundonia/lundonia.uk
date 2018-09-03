@@ -1,0 +1,14 @@
+uuid: fc8340f9-6de1-429d-9b34-493efbcb7fee
+name: 'Crystal Palace String Quartet'
+mail: info@crystalpalacequartet.co.uk
+slogan: 'Bespoke music for your event'
+page:
+  403: ''
+  404: ''
+  front: /front
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
